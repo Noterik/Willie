@@ -129,7 +129,7 @@ public class QueueManager implements MargeObserver {
 		}
 		
 		// replaces the on williequeuescripts
-		LazyMarge.addObserver("/domain/"+domain+"/user/*/audio/*/rawaudio/*", this);		
+		//LazyMarge.addObserver("/domain/"+domain+"/user/*/audio/*/rawaudio/*", this);		
 		return true;
 	}
 	
